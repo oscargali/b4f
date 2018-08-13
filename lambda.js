@@ -1,7 +1,7 @@
 'use strict';
 
 const awsServerlessExpress = require('aws-serverless-express');
-const createApp = require('./application/application');
+const createApp = require('./application/eaApplication');
 
 //creamos la aplicación expess con runtime lambda
 const app = createApp('lambda');

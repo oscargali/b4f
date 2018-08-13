@@ -1,6 +1,6 @@
 'use strict';
 
-const createApp = require('./application/application');
+const createApp = require('./application/eaApplication');
 
 //crea una aplicación express configurada para runtime servidor
 const app = createApp('server');
